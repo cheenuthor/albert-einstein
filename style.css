@@ -1,0 +1,68 @@
+html {
+  background: #393939;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.photo {
+  margin-top: 60px;
+  position: fixed;
+  width: 35%;
+  bottom: 0;
+  height: 90%;
+}
+.text {
+  width: 65%;
+  position: fixed;
+  left: 40%;
+  top: 10%;
+  color: white;
+}
+h2 {
+  font-weight: 300;
+  margin: 0 0 10%;
+}
+h1 {
+  font-weight: 600;
+}
+.nav {
+  height: 8%;
+}
+
+.nav ul {
+  list-style: none;
+  float: right;
+  margin: 0;
+}
+
+.nav ul li {
+  float: left;
+  width: 100px;
+  line-height: 80px;
+  vertical-align: middle;
+  text-align: center;
+  margin: 8px;
+}
+.active {
+  color: #fff;
+}
+ul li a {
+  color: rgb(196, 196, 196);
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin: 10px;
+}
+.home {
+  margin: 35% 10%;
+}
+.timeline {
+  font-size: 24px;
+  margin: 6%;
+}
+#textlist li {
+  font-size: 1.5rem;
+  margin: 5%;
+  font-weight: 300;
+  list-style: square;
+}
